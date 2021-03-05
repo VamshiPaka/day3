@@ -1,6 +1,6 @@
 /**array elements */
 
-/* const student = ["David", ["HTM", "CSS", "JS", "React"], [98, 85, 90, 95]];
+const student = ["David", ["HTM", "CSS", "JS", "React"], [98, 85, 90, 95]];
 
 let name = student[0],
   skills = student[1],
@@ -20,7 +20,7 @@ let studentObj = {
   scores: student[2],
 };
 
-console.log(studentObj.scores[1]); */
+console.log(studentObj.scores[1]);
 
 /**Function to convert array into object */
 const students = [
@@ -37,5 +37,3 @@ let studObj = students.map((x) => {
 });
 
 console.log(studObj);
-
-
