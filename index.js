@@ -37,3 +37,5 @@ let studObj = students.map((x) => {
 });
 
 console.log(studObj);
+
+
